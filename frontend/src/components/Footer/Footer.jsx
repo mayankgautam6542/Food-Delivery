@@ -20,8 +20,11 @@ const imageClick1= (()=>{
           <div className="logo">
             <img src={assets.logo1} alt="" />
           </div>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <div className="footer-social-icons">
+             <p> Healthy Bites offers a diverse selection of food options, meticulously crafted to provide a balanced amount of
+               dietary protein and fiber.Our menu is designed to delight your taste buds while promoting overall well-being. 
+               Each dish is thoughtfully prepared using high-quality ingredients, ensuring you enjoy both exceptional flavor and 
+               nutritional benefits. At Healthy Bites, we believe that healthy eating should never compromise on taste.</p> 
+          <div className="footer-social-icons">
                 <img src={assets.facebook_icon} alt="" onClick={()=>imageClick()} style={{ cursor: 'pointer' }}/>
                 {/* <img src={assets.profile_icon} alt="" /> */}
                 <img src={assets.linkedin_icon} alt="" onClick={()=>imageClick1()} style={{ cursor: 'pointer' }}/>
